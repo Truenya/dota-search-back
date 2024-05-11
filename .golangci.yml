@@ -1,0 +1,33 @@
+linters:
+  enable-all: true
+  disable:
+# Deprecated
+  - deadcode
+  - exhaustivestruct
+  - golint
+  - ifshort
+  - maligned
+  - nosnakecase
+  - scopelint
+  - structcheck
+  - varcheck
+  - interfacer
+# Dont like this
+  - depguard
+  - gofumpt
+  - gomnd # my lovely magic numbers
+  - varnamelen # length of var names short names are ok
+  - musttag
+  - tagliatelle
+  - forbidigo
+  - gci
+  - lll
+  - gochecknoinits
+  - exhaustruct
+  - nlreturn
+  - nonamedreturns
+  - ireturn # why not?
+ #probably shoud be enabled
+  - gochecknoglobals
+# return first order
+  - gosec
